@@ -8,14 +8,34 @@
     <!-- tailwind link -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
+    <!-- icon links -->
+    <script src="https://kit.fontawesome.com/38447ea4cc.js" crossorigin="anonymous"></script>
+
     <!-- css links -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
 </head>
 <body>
     <!-- header start -->
-     <header>
-
+     <header class="container header">
+        <nav class="flex justify-between items-center">
+            <div class="logo flex items-center gap-4">
+                <img src="./images/business.png" alt="justice">
+                <span class="eb-garamond">Justice</span>
+            </div>
+            <div class="menu">
+                <ul class="flex justify-between gap-7">
+                    <li><a href="#">Home</i></a></li>
+                    <li><a href="#">Services <i class="fa-solid fa-greater-than"></i></a></li>
+                    <li><a href="#">Cases <i class="fa-solid fa-greater-than"></i></a></li>
+                    <li><a href="#">Blog <i class="fa-solid fa-greater-than"></i></a></li>
+                    <li><a href="#">Contact Us <i class="fa-solid fa-greater-than"></i></a></li>
+                </ul>
+            </div>
+            <div class="btn">
+                <button class="btn-primary border border-transparent">Free Consultation</button>
+            </div>
+        </nav>
      </header>
     <!-- header end -->
     <!-- main start -->
@@ -25,7 +45,7 @@
     <!-- main start -->
     <!-- footer start -->
      <footer>
-        
+
      </footer>
     <!-- footer end -->
 </body>

@@ -5,6 +5,26 @@
         max-width: 100%;
         padding: 0 10px;
     }
+    .btn-primary{
+        font-size: 1rem;
+        font-weight: 500;
+        padding: 10px 20px;
+    }
+    /* header  */
+    nav{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .menu{
+        margin-left: 0;
+    }
+    .menu ul{
+        flex-direction: column;
+        gap: 5px;
+    }
+    .logo{
+        margin-left: -125px;
+    }
  }
 
 /*Small devices (landscape phones, 576px and up)*/
@@ -13,6 +33,22 @@
     .container{
         max-width: 540px;
     }
+    .btn-primary{
+        font-size: 1rem;
+        font-weight: 500;
+        padding: 15px 25px;
+    }
+    /* header  */
+    nav{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .menu{
+        margin-left: 0;
+    }
+    .logo{
+        margin-left: -125px;
+    }
  }
 
 /*Medium devices (tablets, 768px and up)*/
@@ -20,6 +56,17 @@
     /* shared styles responsive */
     .container{
         max-width: 720px;
+    }
+    /* header  */
+    nav{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .menu{
+        margin-left: 0;
+    }
+    .logo{
+        margin-left: -125px;
     }
  }
 

@@ -29,6 +29,7 @@ body{
 }
 .container{
     max-width: 1170px;
+    margin: 0 auto;
 }
 .btn-primary{
     font-size: 1.125rem;
@@ -37,9 +38,37 @@ body{
     padding: 20px 30px;
     background-color: var(--primary-color);
     border-radius: 8px;
+    transition: all .33s ease-in-out;
+}
+.btn-primary:hover{
+    background-color: transparent;
+    color: var(--dark-2);
+    border: 1px solid var(--primary-color);
 }
 .section-title{
     font-size: 2.5rem;
     font-weight: bolder;
     color: var(--dark-2);
+}
+/* header styles */
+nav{
+    margin: 50px 0;
+}
+.logo{
+    width: 45px;
+    height: 45px;
+}
+.logo span{
+    font-size: 2.1875rem;
+    font-weight: bolder;
+    color: var(--dark-2);
+}
+.menu{
+    margin-left: 130px;
+}
+.menu ul li a{
+    color: var(--dark-3);
+}
+.menu ul li a i{
+    padding-left: 5px;
 }
