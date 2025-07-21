@@ -15,7 +15,7 @@
     }
     .section-title{
         font-size: 2rem;
-        line-height: 42px;
+        line-height: 40px;
     }
     .section-desc{
         margin: 0 0 30px;
@@ -83,6 +83,52 @@
     .item-5{
         border-left: 1px solid transparent;
     }
+    /* testimonial */
+    .testimony{
+        margin-bottom: 60px;
+    }
+    .test-container {
+        height: 440px;
+        padding: 40px 30px;
+    }
+    .padd{
+        padding-top: 15px;
+        font-size: 0.8rem;
+        line-height: 1.3rem;
+    }
+    /* faq  */
+    .faq{
+        margin-bottom: 60px;
+    }
+    .faq-container{
+        gap: 30px;
+        flex-direction: column-reverse;
+    }
+    .faq-item{
+        width: 100%;
+    }
+    /* contact  */
+    /* contact  */
+    .contact{
+        margin-bottom: 60px;
+    }
+    .contact-container{
+        flex-direction: column;
+    }
+    .contact-left-item{
+        width: 260px;
+        height: 260px;
+    }
+    .contact-left{
+        display: block;
+    }
+    .contact-left-item{
+        margin-bottom: 10px;
+    }
+    input[type="text"], input[type="email"], #message, .btn-send{
+        width: 260px;
+        padding: 5px 15px;
+    }
  }
 
 /*Small devices (landscape phones, 576px and up)*/
@@ -98,6 +144,9 @@
     }
     .section-header{
         width: 470px;
+    }
+    .section-title{
+        line-height: 40px;
     }
     /* header  */
     .header{
@@ -159,6 +208,39 @@
     }
     .item-5{
         border-left: 1px solid transparent;
+    }
+    /* testimonial */
+    .testimony{
+        margin-bottom: 60px;
+    }
+    .test-container {
+        height: 440px;
+        padding: 40px 30px;
+    }
+    /* faq  */
+    .faq{
+        margin-bottom: 60px;
+    }
+    .faq-container{
+        gap: 30px;
+        flex-direction: column-reverse;
+    }
+    .faq-item{
+        width: 100%;
+    }
+   /* contact  */
+    .contact{
+        margin-bottom: 60px;
+    }
+    .contact-container{
+        flex-direction: column;
+    }
+    .contact-left-item{
+        width: 260px;
+        height: 260px;
+    }
+    input[type="text"], input[type="email"], #message, .btn-send{
+        width: 525px;
     }
  }
 
@@ -228,6 +310,33 @@
     .item-5{
         border-left: 1px solid transparent;
     }
+    /* testimonial */
+    .testimony{
+        margin-bottom: 80px;
+    }
+    .test-container {
+        height: 470px;
+        padding: 55px 70px;
+    }
+    /* faq  */
+    .faq{
+        margin-bottom: 80px;
+    }
+    .faq-container{
+        gap: 30px;
+        flex-direction: column-reverse;
+    }
+    .faq-item{
+        width: 100%;
+    }
+    /* contact  */
+    .contact-container{
+        flex-direction: column;
+    }
+    /* footer  */
+    .footer-content{
+       grid-template-columns: repeat(2, 1fr);
+    }
  }
 
 /*Large devices (desktops, 992px and up)*/
@@ -254,6 +363,21 @@
         left: 145px;
         bottom: 70px;
     }
+    /* faq  */
+    .faq-container{
+        gap: 30px;
+    }
+    .faq-item{
+        width: 500px;
+    }
+    /* contact  */
+    .contact-container{
+        flex-direction: column;
+    }
+    /* footer  */
+    .footer-content{
+       grid-template-columns: repeat(2, 1fr);
+    }
  }
 
 /* Extra large devices (desktops, 1200px and up)*/
@@ -268,6 +392,14 @@
     }
     .item-icon{
         left: 175px;
+    }
+    /* faq  */
+    .faq-container{
+        gap: 30px;
+    }
+    /* footer  */
+    .footer-content{
+        gap: 50px;
     }
  }
 
