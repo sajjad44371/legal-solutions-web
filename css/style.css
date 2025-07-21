@@ -49,8 +49,21 @@ body{
     font-size: 2.5rem;
     font-weight: bolder;
     color: var(--dark-2);
+    text-align: center;
+}
+.section-desc{
+    text-align: center;
+    margin: 25px 0 65px;
+    padding: 25px 0;
+}
+.section-header{
+    width: 715px;
+    margin: 0 auto;
 }
 /* header styles */
+.header{
+    margin-bottom: 105px;
+}
 nav{
     margin: 50px 0;
 }
@@ -71,4 +84,108 @@ nav{
 }
 .menu ul li a i{
     padding-left: 5px;
+}
+/* banner  */
+.banner{
+    background-image: url('../images/banner.png'), linear-gradient(to right, black, grey);
+    height: 550px;
+}
+.banner-content{
+    padding: 105px 240px;
+}
+.banner-content h1{
+    font-size: 4.5rem;
+    font-weight: bolder;
+    line-height: 85px;
+    color: white;
+}
+.banner-content p{
+    margin: 25px 0 40px;
+}
+input[type="search"] {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 500px;
+}
+/* practice  */
+.practice{
+    margin-bottom: 120px;
+}
+.practice-item-content{
+    padding: 0 55px;
+    position: absolute;
+    top: 165px;
+}
+.practice-item{
+    height: 500px;
+    position: relative;
+}
+.item-1, .item-3{
+    border-top: 1px solid transparent;
+    border-right: 1px solid transparent;
+    border-bottom: 1px solid #E7E7E7;
+    border-left: 1px solid transparent;
+    transition: all .33s linear;
+}
+.item-2{
+    border-top: 1px solid transparent;
+    border-right: 1px solid #E7E7E7;
+    border-bottom: 1px solid #E7E7E7;
+    border-left: 1px solid #E7E7E7;
+    transition: all .33s linear;
+}
+.item-4, .item-6{
+    border-top: 1px solid transparent;
+    border-right: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    border-left: 1px solid transparent;
+    transition: all .33s linear;
+}
+.item-5{
+    border-top: 1px solid #E7E7E7;
+    border-right: 1px solid #E7E7E7;
+    border-bottom: 1px solid transparent;
+    border-left: 1px solid #E7E7E7;
+    transition: all .33s linear;
+}
+.item-1:hover{
+    border: 1px solid #E7E7E7;
+    background-image: linear-gradient(to bottom, #f3f3f3, #ffffff);
+}
+.item-2:hover{
+    border: 1px solid #E7E7E7;
+    background-image: linear-gradient(to bottom, #f3f3f3, #ffffff);
+}
+.item-3:hover{
+    border: 1px solid #E7E7E7;
+    background-image: linear-gradient(to bottom, #f3f3f3, #ffffff);
+}
+.item-4:hover{
+    border: 1px solid #E7E7E7;
+    background-image: linear-gradient(to bottom, #f3f3f3, #ffffff);
+}
+.item-5:hover{
+    border: 1px solid #E7E7E7;
+    background-image: linear-gradient(to bottom, #f3f3f3, #ffffff);
+}
+.item-6:hover{
+    border: 1px solid #E7E7E7;
+    background-image: linear-gradient(to bottom, #f3f3f3, #ffffff);
+}
+.item-img{
+    position: absolute;
+    top: 55px;
+    left: 180px;
+}
+.practice-item-content h3{
+    font-size: 2rem;
+    font-weight: bolder;
+    color: var(--dark-2);
+    margin: 0 0 25px;
+}
+.item-icon{
+    position: absolute;
+    bottom: 85px;
+    left: 200px;
 }
